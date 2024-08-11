@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="assets/img/icon.png" type="image/png">
+  <title>La Dolce Vita </title>
+  <link rel="preconnect" href="assets/img/banner 2.jpg" > <!--  &gt;  mudar para -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/variables.css">
+  <link rel="stylesheet" href="assets/css/elements.css">
+  <link rel="stylesheet" href="assets/css/classes.css">
+  <link rel="stylesheet" href="assets/css/menu.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+  <input id="close-menu" class="close-menu" type="checkbox" aria-label="Close menu" role="button">
+  <label class="close-menu-label" for="close-menu" title="close menu"></label>
+  <aside id="logo" class="menu white-bg">
+    <div class="main-content menu-content">
+      <h1><a href="#intro" style="color: plum;">La Dolce Vita</a></h1>
+      <nav>
+        <ul>
+          <li><a href="#intro">Introdução</a></li>
+          <li><a href="#top3">3 Receitas</a></li>
+          <li><a href="#grid-one">Grade</a></li>
+          <li><a href="#gallery">Galeria</a></li>
+          <li><a href="#pricing">Preços</a></li>
+          <li><a href="#contact">Sobre</a></li>
+        </ul>
+      </nav>
+    </div>
+  </aside>
+  <!-- Parte 3 -->
+  <div id="intro" class="menu-spacing"></div>
+  <section class="intro main-bg ">
+    <div class="main-content intro-content">
+      <div class="intro-text-content">
+        <h2 style="font-size:xx-large;">Bem-vindo à Confeitaria La Dolce Vita</h2>
+        <p>Onde cada doce é uma obra-prima artesanal que combina tradição com sabores contemporâneos. Explore nosso 
+          universo de bolos meticulosamente preparados, tortas irresistíveis e cookies que derretem na boca. 
+          Descubra o prazer genuíno da confeitaria feita com paixão.</p>
+      </div>
+      <div class="intro-img">
+        <img src="assets/img/banner 1.jpg" alt="banner 1" width="590px" height="400px" >
+      </div>
+    </div>
+  </section>
+  <!-- parte 3 2.0 -->
+  <section style="padding-top: 45px;" id="top3" class="white-bg ">
+    <div class="main-content top3-content">
+      <h2>Top 3 receitas</h2>
+      <p>O Bolo de Cenoura é um clássico fácil de preparar. Basta bater cenoura, ovos e óleo no liquidificador, 
+        misturar com açúcar, farinha e fermento, e levar ao forno. Finalize com uma deliciosa cobertura de 
+        chocolate.</p>
+
+      <p>O Bolo de Fubá é perfeito para acompanhar o café. Feito com fubá, farinha, ovos, açúcar, óleo e leite, 
+        tem uma textura macia e sabor suave. Algumas receitas incluem coco ou queijo para um toque extra.</p>
+
+      <p>O Bolo de Chocolate é uma escolha infalível para os fãs de doces. Feito com cacau em pó, ovos, açúcar, 
+        farinha, óleo e leite, é úmido e saboroso. Uma cobertura de ganache o deixa ainda mais irresistível.</p>
+    </div>
+  </section>
+  <!-- parte 4 -->
+  <section id="grid-one" class="grid-one main-bg ">
+    <div class="main-content grid-one-content">
+      <!-- div estava errada correção -->
+      <h2 class="grid-main-heading">Grade</h2>
+      <p class="grid-description">Descubra nossas delícias especiais! Selecionamos três receitas incríveis de 
+        bolos para você saborear e compartilhar com quem ama. Cada um deles traz um sabor único que vai 
+        conquistar o seu paladar."</p>
+      <div class="grid">
+        <article>
+          <h3>Bolo de Cenoura</h3>
+          <p>Descubra o sabor incrível do nosso Bolo de Cenoura com cobertura de chocolate! Feito com ingredientes 
+            frescos e carinho, ele é a escolha perfeita para qualquer momento. Não perca essa delícia que vai 
+            adoçar o seu dia! </p>
+        </article>
+        <article>
+          <h3>Bolo de Fubá</h3>
+          <p>Experimente o tradicional Bolo de Fubá, macio e saboroso, ideal para acompanhar seu café. Feito com 
+            ingredientes selecionados, é uma verdadeira delícia caseira que traz o sabor das festas juninas para 
+            sua mesa.</p>
+        </article>
+        <article>
+          <h3>Bolo de Chocolate</h3>
+          <p>Delicie-se com o nosso irresistível Bolo de Chocolate! Úmido, rico em sabor e coberto com ganache, 
+            ele é a escolha perfeita para os amantes de doces. Surpreenda-se com essa maravilha e compartilhe 
+            com quem você ama!</p>
+        </article>
+      </div>
+    </div>
+  </section>
+  <!-- part 4.2 -->
+  <!-- source.unsplash.com/random/360x360 -->
+  <section id="gallery" class="grid-one white-bg ">
+    <div class="main-content grid-one-content">
+      <!-- div estava errada correção -->
+      <h2 class="grid-main-heading">Gallery</h2>
+      <p class="grid-description">Conheça algumas de nossas delicias!</p>
+      <div class="grid">
+        <div class="gallery-item">
+          <img src="assets/img/Bolo-milho.jpg" alt="Milho"
+          onclick="openModal('assets/img/Bolo-milho.jpg')">
+        </div>
+        <div class="gallery-item">
+          <img src="assets/img/oreo.jpg" alt="oreo"
+          onclick="openModal('assets/img/oreo.jpg')">
+        </div>
+        <div class="gallery-item">
+          <img src="assets/img/Pudim.jpeg" alt="Pudim"
+          onclick="openModal('assets/img/Pudim.jpeg')">
+        </div>
+        <div class="gallery-item">
+          <img src="assets/img/BoloFormigueiro.jpg" alt="BoloFormigueiro"
+          onclick="openModal('assets/img/BoloFormigueiro.jpg')">
+        </div>
+        <div class="gallery-item">
+          <img src="assets/img/RedVelvet.jpeg" alt="RedVelvet"
+          onclick="openModal('assets/img/RedVelvet.jpeg')">
+        </div>
+        <div class="gallery-item">
+          <img src="assets/img/BoloLaranja.jpeg" alt="Laranja"
+          onclick="openModal('assets/img/BoloLaranja.jpeg')">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- parte da tabela -->
+  <section id="pricing" class="white-bg section">
+    <div class="main-content top3-content">
+      <h2>Preços</h2>
+      <p>A Confeitaria La Dolce Vita é conhecida por seus produtos artesanais e receitas tradicionais, que conquistaram gerações
+      de clientes. Nossa dedicação à qualidade e ao sabor único é o que nos diferencia no mercado.</p>
+      <p>Da escolha dos ingredientes até a finalização dos doces, cada etapa do processo é realizada com atenção e carinho, 
+        garantindo uma experiência memorável a cada mordida.</p>      
+        <div class="responsive-table">
+          <table>
+            <caption>Tabela de Preços</caption>
+            <thead>
+              <tr>
+                <th>Produto</th>
+                <th>Preço</th>
+                <th>Descrição</th>
+                <th>Categoria</th>
+                <th>Disponibilidade</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Bolo de Chocolate</td>
+                <td>R$30,00</td>
+                <td>Delicioso bolo de chocolate com cobertura de brigadeiro.</td>
+                <td>Bolos</td>
+                <td>Disponível</td>
+              </tr>
+              <tr>
+                <td>Torta de Limão</td>
+                <td>R$25,00</td>
+                <td>Torta de limão com massa crocante e recheio cremoso.</td>
+                <td>Tortas</td>
+                <td>Disponível</td>
+              </tr>
+              <tr>
+                <td>Cookies de Chocolate</td>
+                <td>R$15,00</td>
+                <td>Cookies crocantes com pedaços de chocolate.</td>
+                <td>Doces</td>
+                <td>Disponível</td>
+              </tr>
+              <tr>
+                <td>Bolo de Cenoura</td>
+                <td>R$28,00</td>
+                <td>Bolo de cenoura com cobertura de chocolate.</td>
+                <td>Bolos</td>
+                <td>Disponível</td>
+              </tr>
+              <tr>
+                <td>Cheesecake</td>
+                <td>R$35,00</td>
+                <td>Cheesecake cremoso com calda de frutas vermelhas.</td>
+                <td>Tortas</td>
+                <td>Disponível</td>
+              </tr>
+            </tbody>
+            <tfoot>
+              <tr>
+                <td colspan="4">Total</td>
+                <td><R100>Total:  </R100>R$00,00</td>
+              </tr>
+            </tfoot>
+          </table>
+        </div>        
+    </div>
+  </section>
+
+  <!-- Parte conteact! -->
+
+  <div id="contact" class="menu-spacing"></div>
+  <section class="intro main-bg ">
+    <div class="main-content intro-content">
+      <div class="intro-text-content">
+        <h2>Sobre Nós</h2>
+        <p>Obrigado por visitar o nosso site! Somos apaixonados por oferecer uma experiência única e envolvente 
+          para todos os nossos visitantes. Se você tiver alguma dúvida, sugestão ou apenas quiser bater um papo, 
+          não hesite em nos contatar. Fique à vontade para explorar e aproveitar tudo o que temos a oferecer!</p>
+      </div>
+      <div class="intro-img">
+        <img src="assets/img/banner 1.jpg" alt="banner" id="bannerImage">
+      </div>
+
+      <form id="contact-form" class="contact-form">
+        <fieldset class="form-grid">
+          <legend>Envie sua mensagem. 🍰</legend>
+
+          <div class="form-group">
+            <label for="first-name">Nome</label>
+            <input type="text" name="first-name" id="first-name" placeholder="Nome">
+          </div>
+
+          <div class="form-group">
+            <label for="last-name">Sobrenome</label>
+            <input type="text" name="last-name" id="last-name" placeholder="Sobrenome">
+          </div>
+
+          <div class="form-group">
+            <label for="email">E-mail</label>
+            <input type="text" name="email" id="email" placeholder="Email">
+          </div>
+
+          <div class="form-group full-width">
+            <label for="message">Mensagem</label>
+            <textarea name="message" id="message" rows="10" placeholder="Mensagem"></textarea>
+          </div>
+
+          <div class="form-group full-width">
+            <button type="submit">Enviar</button>
+          </div>
+        </fieldset>
+      </form>
+    </div>
+    <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3.2.0/dist/email.min.js"></script>
+    <script type="text/javascript">
+      (function() {
+          emailjs.init("n4bt9UJDCY3QJJnkR"); // Substitua pelo seu User ID do EmailJS
+      })();
+  
+      document.getElementById('contact-form').addEventListener('submit', function(event) {
+          event.preventDefault();
+  
+          const templateParams = {
+              first_name: document.getElementById('first-name').value,
+              last_name: document.getElementById('last-name').value,
+              email: document.getElementById('email').value,
+              message: document.getElementById('message').value
+          };
+  
+          emailjs.send('service_oag7m2a', 'template_a6kblb6', templateParams)
+              .then(function() {
+                  alert('Email enviado com sucesso!');
+              }, function(error) {
+                  alert('Falha ao enviar o email, tente novamente: ' + JSON.stringify(error));
+              });
+      });
+  </script>
+    
+  <footer id="footer" class="footer white-bg">
+    <p><a href=""><span class="span"> &copy;</span> 2024 Confeitaria La Dolce Vita. Todos os
+        direitos reservados.</a></p>
+  </footer>
+  <a class="back-to-top" href="#">➤</a>
+  <div class="modal" id="myModal">
+    <span class="close" onclick="closeModal()" >&times;</span>
+    <img class="modal-content" id="modalImage">
+  </div>
+  <script src="assets/js/script.js"></script>
+</body>
+
+</html>
